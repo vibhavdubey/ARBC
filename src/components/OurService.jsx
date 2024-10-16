@@ -3,25 +3,25 @@ const OurService = () => {
   const ourServiceData = [
     {
       id: 1,
-      image: "/ourService/serviceImg1.png",
+      image: import.meta.env.BASE_URL + "/ourService/serviceImg1.png",
       title: "Trade",
       description: "Udhaar",
     },
     {
       id: 2,
-      image: "/ourService/serviceImg2.png",
+      image: import.meta.env.BASE_URL + "/ourService/serviceImg2.png",
       title: "Trade",
       description: "GetDistributors.com",
     },
     {
       id: 3,
-      image: "/ourService/serviceImg3.png",
+      image: import.meta.env.BASE_URL + "/ourService/serviceImg3.png",
       title: "Trade",
       description: "Shows",
     },
     {
       id: 4,
-      image: "/ourService/serviceImg4.png",
+      image: import.meta.env.BASE_URL + "/ourService/serviceImg4.png",
       title: "Trade",
       description: "Khata",
     },
