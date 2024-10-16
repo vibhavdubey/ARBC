@@ -12,7 +12,7 @@ const App = () => {
     <section className="">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ARBC/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<Signup />} />
         <Route path="*" element={<PageNotFound />} />

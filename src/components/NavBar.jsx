@@ -6,11 +6,9 @@ const NavBar = () => {
     <header className="w-full sticky top-0 z-10 bg-[#f7ecd8]">
       <nav className="mx-10 flex mt-5 justify-between items-center py-3 bg-[#2D3941] text-white px-3 rounded-xl ">
         <div>
-          <Link to="./">
+          <Link to="./ARBC/">
             {/* <img src={Logo} alt="logo" className="w-24" /> */}
-            <h1 className="text-5xl font-semibold font-mono ">
-              ARBC
-            </h1>
+            <h1 className="text-5xl font-semibold font-mono ">ARBC</h1>
           </Link>
         </div>
         <div className="w-1/3 flex relative ">
